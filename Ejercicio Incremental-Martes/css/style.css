@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+    background:linear-gradient( #55eeee,#4d4af1)
+}
+
+.container{
+    margin:30px auto;
+    width:90%;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+h1{
+    width:100%;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:10px;
+    border-bottom:1px solid #000;
+}
+
+.cards{
+    width:100%;
+    display:flex;
+}
+
+.cards .card{
+    width:25%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 10px auto;
+}
+
+.cards .card .imagen{
+    width:300px;
+}
+
+.cards .card .imagen img{
+    width:100%;
+}
+
+.card  p{
+    font-size:20px;
+    margin: 0 5px;
+}
+
+.card  button{
+    width:20%;
+}
+.card #contador-g, #contador-p,#contador-h{
+    width:50%;
+    margin: 10px auto;
+    background-color:#ccc;
+    text-align:center;
+    height:25px;
+}
+
+.total{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+    background-color: #ccc;
+}
